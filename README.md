@@ -9,20 +9,20 @@ Les points du jeu sont calculés en fonction des différentes actions effectuer 
 - Une gestion d'énergie en fonction des collisions 
 - Optimisation des chemins à suivre et mode AI de l'algorithme Dijkstra
 ## Hiérarchie de la classe :
-Joueur(classe A)
+# Joueur(classe A)
 Attributs:
 - Mouvement Speed
 - Direction
 - Position
 - Collision
 - Mode AI
-Door (classe B)
+# Door (classe B)
 - Représente le multiple obstacles présent sur le parcours du joeuer.
-DoorManager ( classe C)
+# DoorManager ( classe C)
 - Gère les différentes portes du jeu
-CameraPosition (classe D)
+# CameraPosition (classe D)
 - Une synchronisation de la caméra par rapport au joueur pour avoir une vision plus fluide
-PlayerData ( classe E)
+# PlayerData ( classe E)
 - Stocke les données comme les collisions avec les portes , le nombre de fois qu'il est tombé , son score etc..
-Méthode Utilisée : 
+# Méthode Utilisée : 
 -Dijistra : Cette méthode cherche le chemin à prendre et heuristique d'optimisation pour évaluer chaque position à parcourir 

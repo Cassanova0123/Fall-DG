@@ -17,7 +17,7 @@ Attributs:
 - Collision
 - Mode AI
 # Door (classe B)
-- Représente le multiple obstacles présent sur le parcours du joeuer.
+- Représente le multiple obstacles présent sur le parcours du joueur.
 # DoorManager ( classe C)
 - Gère les différentes portes du jeu
 # CameraPosition (classe D)

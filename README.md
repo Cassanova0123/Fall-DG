@@ -8,7 +8,7 @@ Les points du jeu sont calculés en fonction des différentes actions effectuer 
 - Les Perfommances du joueur affecte le score à la fin de la  partie
 - Une gestion d'énergie en fonction des collisions 
 - Optimisation des chemins à suivre et mode AI de l'algorithme Dijkstra
-Hiérarchie de la classe :
+## Hiérarchie de la classe :
 Joueur(classe A)
 Attributs:
 - Mouvement Speed
